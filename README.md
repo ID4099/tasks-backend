@@ -48,5 +48,5 @@ Si quieres arrancar el ecosistema de app+mySql mediante contenedores docker con 
 
 - Ante todo es mejor acesorarse de tener permisos mara manejar archivos desde docker, ejecute el siguiente comando "sudo chown -R $(whoami) ~/.docker"
 
-- Ejecuta el comando "docker-compose up" ó " docker-compose up -d", una vez hecho esto; te levantará una instancia de MongoDB en local expuesta en el puerto 3307.
+- Ejecuta el comando "docker-compose up" ó " docker-compose up -d", una vez hecho esto; te levantará una instancia de MySql en local expuesta en el puerto 3307.
 - Tambien puedes hacer lo mismo con los comandos "docker build -t app-tasks-backend ." y una vez levantado la imagen ejecutar "docker run -p 3000:3000 app-tasks-backend" iniciando por defecto en el puerto 3000.
